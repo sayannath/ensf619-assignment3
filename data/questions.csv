@@ -1,0 +1,11 @@
+id,question,expected_answer,paper,section
+1,What Power Usage Effectiveness (PUE) coefficient do Strubell et al. use in their energy estimates?,"1.58, the 2018 global average for data centers",strubell2019_energy_nlp,Section 2
+2,"According to Strubell et al., how many pounds of CO2e are estimated for training a Transformer with neural architecture search?","626,155 lbs",strubell2019_energy_nlp,Tables 1 and 3
+3,"In the LISA case study by Strubell et al., how many training jobs were run and what was the total GPU time?","4789 jobs and 9998 days (27 years) of GPU time",strubell2019_energy_nlp,Section 4.2
+4,What three quantities does the Red AI equation in the Green AI paper say the cost of a result grows with?,"The cost of processing a single example (E), the size of the training dataset (D) and the number of hyperparameter experiments (H)",schwartz2019_green_ai,Section 2
+5,"In the Green AI paper's sample of 60 conference papers, what percentage of ACL, NeurIPS and CVPR papers target accuracy?","90% of ACL, 80% of NeurIPS and 75% of CVPR papers",schwartz2019_green_ai,Section 2
+6,"According to the Green AI paper, how many parameters does BERT-large contain?",Roughly 350 million,schwartz2019_green_ai,Section 2
+7,What efficiency measure does the Green AI paper advocate reporting and what does it count?,"FPO, the total number of floating point operations required to generate a result",schwartz2019_green_ai,Section 3.1
+8,How do Lewis et al. split Wikipedia for the RAG document index and how many documents does this produce?,"Each article is split into disjoint 100-word chunks, giving 21M documents",lewis2020_rag,Section 3
+9,What is the difference between the RAG-Sequence and RAG-Token models?,"RAG-Sequence uses the same retrieved document to generate the whole sequence, while RAG-Token can use a different document for each target token",lewis2020_rag,Section 2.1
+10,"In the FEVER analysis by Lewis et al., how often is the top retrieved document from a gold article, and how often is a gold article in the top 10?",71% for the top document and 90% for the top 10,lewis2020_rag,Section 4.4

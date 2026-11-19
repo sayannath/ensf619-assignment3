@@ -1,0 +1,131 @@
+/home/sayan.nath/miniconda3/envs/llm_env/lib/python3.12/site-packages/codecarbon/core/gpu.py:4: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:45,  7.47it/s]Loading weights:   1%|          | 2/339 [00:00<00:50,  6.62it/s]Loading weights:   5%|▌         | 17/339 [00:00<00:05, 55.51it/s]Loading weights:  12%|█▏        | 41/339 [00:00<00:02, 104.67it/s]Loading weights:  19%|█▉        | 64/339 [00:00<00:01, 137.58it/s]Loading weights:  23%|██▎       | 79/339 [00:00<00:01, 136.41it/s]Loading weights:  32%|███▏      | 110/339 [00:00<00:01, 184.21it/s]Loading weights:  38%|███▊      | 130/339 [00:01<00:01, 161.68it/s]Loading weights:  47%|████▋     | 161/339 [00:01<00:01, 173.61it/s]Loading weights:  53%|█████▎    | 179/339 [00:01<00:00, 169.80it/s]Loading weights:  58%|█████▊    | 197/339 [00:01<00:00, 165.68it/s]Loading weights:  64%|██████▎   | 216/339 [00:01<00:00, 171.93it/s]Loading weights:  69%|██████▉   | 234/339 [00:01<00:00, 156.72it/s]Loading weights:  74%|███████▍  | 251/339 [00:01<00:00, 156.55it/s]Loading weights:  79%|███████▉  | 269/339 [00:01<00:00, 147.60it/s]Loading weights:  86%|████████▌ | 292/339 [00:02<00:00, 160.42it/s]Loading weights:  91%|█████████ | 309/339 [00:02<00:00, 155.65it/s]Loading weights:  97%|█████████▋| 330/339 [00:02<00:00, 166.49it/s]Loading weights: 100%|██████████| 339/339 [00:02<00:00, 150.67it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 41926.76it/s]
+[codecarbon INFO @ 20:17:06] offline tracker init
+[codecarbon WARNING @ 20:17:06] Multiple instances of codecarbon are allowed to run at the same time.
+{'config': 'baseline', 'chunks': 101, 'truncated_chunks': 58, 'longest_chunk': 291, 'embedder_limit': 256, 'index_ms': 282.845841627568, 'co2_kg': 3.310788359546345e-06, 'energy_kwh': 5.27468740234962e-06}
+baseline q1: retrieve=4.9ms generate=676ms t_in=2071 out=23 co2=2.51e-05kg
+baseline q2: retrieve=4.8ms generate=427ms t_in=2074 out=12 co2=1.76e-05kg
+baseline q3: retrieve=4.9ms generate=1172ms t_in=2075 out=45 co2=4.19e-05kg
+baseline q4: retrieve=5.0ms generate=1028ms t_in=2070 out=33 co2=3.50e-05kg
+baseline q5: retrieve=4.8ms generate=813ms t_in=2077 out=29 co2=3.09e-05kg
+baseline q6: retrieve=4.8ms generate=428ms t_in=2064 out=12 co2=1.81e-05kg
+baseline q7: retrieve=5.4ms generate=1547ms t_in=2064 out=56 co2=5.40e-05kg
+baseline q8: retrieve=4.9ms generate=950ms t_in=2070 out=35 co2=3.63e-05kg
+baseline q9: retrieve=4.8ms generate=1729ms t_in=2064 out=64 co2=6.13e-05kg
+baseline q10: retrieve=5.2ms generate=1064ms t_in=1996 out=40 co2=4.05e-05kg
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 42057.16it/s]
+{'config': 'optimized', 'chunks': 45, 'truncated_chunks': 20, 'longest_chunk': 564, 'embedder_limit': 512, 'index_ms': 273.7524963915348, 'co2_kg': 6.490241846193719e-06, 'energy_kwh': 1.034013448960271e-05}
+optimized q1: retrieve=7.7ms generate=634ms t_in=1559 out=23 co2=2.51e-05kg
+optimized q2: retrieve=7.8ms generate=254ms t_in=1562 out=6 co2=1.16e-05kg
+optimized q3: retrieve=8.0ms generate=1268ms t_in=1563 out=45 co2=4.47e-05kg
+optimized q4: retrieve=9.3ms generate=747ms t_in=1558 out=28 co2=2.97e-05kg
+optimized q5: retrieve=7.8ms generate=793ms t_in=1565 out=30 co2=3.11e-05kg
+optimized q6: retrieve=8.7ms generate=283ms t_in=1552 out=6 co2=1.21e-05kg
+optimized q7: retrieve=8.1ms generate=1745ms t_in=1552 out=72 co2=6.59e-05kg
+optimized q8: retrieve=7.8ms generate=766ms t_in=1378 out=29 co2=3.01e-05kg
+optimized q9: retrieve=8.0ms generate=1903ms t_in=1552 out=73 co2=6.88e-05kg
+optimized q10: retrieve=7.8ms generate=254ms t_in=1572 out=6 co2=1.17e-05kg
+/home/sayan.nath/miniconda3/envs/llm_env/lib/python3.12/site-packages/codecarbon/core/gpu.py:4: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<00:49,  6.80it/s]Loading weights:   1%|          | 2/339 [00:00<00:50,  6.67it/s]Loading weights:   2%|▏         | 8/339 [00:00<00:13, 24.86it/s]Loading weights:   9%|▊         | 29/339 [00:00<00:03, 85.19it/s]Loading weights:  15%|█▌        | 52/339 [00:00<00:02, 127.23it/s]Loading weights:  23%|██▎       | 77/339 [00:00<00:01, 153.14it/s]Loading weights:  29%|██▉       | 100/339 [00:00<00:01, 171.35it/s]Loading weights:  37%|███▋      | 125/339 [00:00<00:01, 184.92it/s]Loading weights:  42%|████▏     | 144/339 [00:01<00:01, 169.66it/s]Loading weights:  51%|█████     | 173/339 [00:01<00:00, 194.60it/s]Loading weights:  57%|█████▋    | 193/339 [00:01<00:00, 178.70it/s]Loading weights:  63%|██████▎   | 212/339 [00:01<00:00, 151.73it/s]Loading weights:  68%|██████▊   | 232/339 [00:01<00:00, 160.84it/s]Loading weights:  73%|███████▎  | 249/339 [00:01<00:00, 154.23it/s]Loading weights:  79%|███████▉  | 268/339 [00:01<00:00, 160.18it/s]Loading weights:  84%|████████▍ | 285/339 [00:02<00:00, 148.67it/s]Loading weights:  90%|████████▉ | 304/339 [00:02<00:00, 155.59it/s]Loading weights:  94%|█████████▍| 320/339 [00:02<00:00, 148.13it/s]Loading weights: 100%|██████████| 339/339 [00:02<00:00, 149.31it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 42330.18it/s]
+[codecarbon INFO @ 20:21:16] offline tracker init
+[codecarbon WARNING @ 20:21:16] Multiple instances of codecarbon are allowed to run at the same time.
+{'config': 'optimized', 'chunks': 45, 'truncated_chunks': 20, 'longest_chunk': 564, 'embedder_limit': 512, 'index_ms': 276.22266029939055, 'co2_kg': 6.320544891408886e-06, 'energy_kwh': 1.0069776407957377e-05}
+optimized q1: retrieve=8.0ms generate=639ms t_in=1559 out=23 co2=2.48e-05kg
+optimized q2: retrieve=8.9ms generate=276ms t_in=1562 out=6 co2=1.19e-05kg
+optimized q3: retrieve=8.2ms generate=1142ms t_in=1563 out=45 co2=4.26e-05kg
+optimized q4: retrieve=8.4ms generate=755ms t_in=1558 out=28 co2=2.91e-05kg
+optimized q5: retrieve=8.0ms generate=798ms t_in=1565 out=30 co2=3.10e-05kg
+optimized q6: retrieve=13.1ms generate=330ms t_in=1552 out=6 co2=1.32e-05kg
+optimized q7: retrieve=7.9ms generate=1757ms t_in=1552 out=72 co2=6.52e-05kg
+optimized q8: retrieve=7.9ms generate=770ms t_in=1378 out=29 co2=3.01e-05kg
+optimized q9: retrieve=8.0ms generate=1916ms t_in=1552 out=73 co2=6.84e-05kg
+optimized q10: retrieve=7.9ms generate=255ms t_in=1572 out=6 co2=1.18e-05kg
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 21243.77it/s]
+{'config': 'baseline', 'chunks': 101, 'truncated_chunks': 58, 'longest_chunk': 291, 'embedder_limit': 256, 'index_ms': 241.82695532217622, 'co2_kg': 4.5289451938976354e-06, 'energy_kwh': 7.215432569497443e-06}
+baseline q1: retrieve=6.7ms generate=806ms t_in=2071 out=23 co2=2.96e-05kg
+baseline q2: retrieve=4.8ms generate=437ms t_in=2074 out=12 co2=1.89e-05kg
+baseline q3: retrieve=4.8ms generate=1190ms t_in=2075 out=45 co2=4.61e-05kg
+baseline q4: retrieve=5.0ms generate=1038ms t_in=2070 out=33 co2=3.85e-05kg
+baseline q5: retrieve=5.0ms generate=829ms t_in=2077 out=29 co2=3.33e-05kg
+baseline q6: retrieve=4.8ms generate=435ms t_in=2064 out=12 co2=1.90e-05kg
+baseline q7: retrieve=5.0ms generate=1484ms t_in=2064 out=56 co2=5.65e-05kg
+baseline q8: retrieve=5.0ms generate=964ms t_in=2070 out=35 co2=3.80e-05kg
+baseline q9: retrieve=4.8ms generate=1624ms t_in=2064 out=64 co2=6.28e-05kg
+baseline q10: retrieve=5.2ms generate=1198ms t_in=1996 out=40 co2=4.39e-05kg
+/home/sayan.nath/miniconda3/envs/llm_env/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<01:17,  4.39it/s]Loading weights:   1%|          | 2/339 [00:00<01:31,  3.69it/s]Loading weights:   1%|▏         | 5/339 [00:00<00:36,  9.15it/s]Loading weights:   5%|▌         | 18/339 [00:00<00:09, 34.88it/s]Loading weights:   9%|▊         | 29/339 [00:00<00:06, 49.87it/s]Loading weights:  12%|█▏        | 42/339 [00:01<00:04, 63.13it/s]Loading weights:  16%|█▌        | 54/339 [00:01<00:04, 66.59it/s]Loading weights:  19%|█▉        | 66/339 [00:01<00:03, 77.57it/s]Loading weights:  23%|██▎       | 77/339 [00:01<00:03, 80.23it/s]Loading weights:  26%|██▋       | 89/339 [00:01<00:03, 82.89it/s]Loading weights:  33%|███▎      | 113/339 [00:01<00:01, 118.14it/s]Loading weights:  40%|████      | 137/339 [00:01<00:01, 146.17it/s]Loading weights:  47%|████▋     | 161/339 [00:01<00:01, 164.71it/s]Loading weights:  53%|█████▎    | 179/339 [00:02<00:00, 166.13it/s]Loading weights:  58%|█████▊    | 197/339 [00:02<00:00, 145.04it/s]Loading weights:  64%|██████▍   | 218/339 [00:02<00:00, 141.76it/s]Loading weights:  69%|██████▊   | 233/339 [00:02<00:00, 143.64it/s]Loading weights:  76%|███████▌  | 256/339 [00:02<00:00, 159.22it/s]Loading weights:  81%|████████  | 273/339 [00:02<00:00, 150.37it/s]Loading weights:  86%|████████▋ | 293/339 [00:02<00:00, 145.92it/s]Loading weights:  94%|█████████▎| 317/339 [00:02<00:00, 163.43it/s]Loading weights: 100%|██████████| 339/339 [00:03<00:00, 111.20it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 42799.02it/s]
+[codecarbon INFO @ 20:25:26] offline tracker init
+[codecarbon WARNING @ 20:25:26] Multiple instances of codecarbon are allowed to run at the same time.
+baseline k=1 done
+baseline k=3 done
+baseline k=5 done
+baseline k=8 done
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 43422.46it/s]
+optimized k=1 done
+optimized k=3 done
+optimized k=5 done
+optimized k=8 done
+/home/sayan.nath/miniconda3/envs/llm_env/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/home/sayan.nath/miniconda3/envs/llm_env/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 41309.36it/s]
+[codecarbon INFO @ 20:39:13] offline tracker init
+[codecarbon WARNING @ 20:39:13] Multiple instances of codecarbon are allowed to run at the same time.
+['baseline', 2000, 5.212486938107759, 7.601771119267285e-08, 4.771440165799143e-08]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 43159.75it/s]
+['optimized', 2000, 8.900011831894517, 1.3124957679174384e-07, 8.23820518432852e-08]
+Fill the accuracy column of results/grading_sheet.csv with P or F, then run apply_grades.py
+Warning: some runs are not graded yet, so the accuracy columns are not final.
+
+Main comparison
+| Config | T_retriever (ms) | T_generator (ms) | T_total (ms) | T_in | Output tokens | Energy (J) | CO2e per query (kg) | Accuracy | Passes per second | Passes per g CO2e |
+|---|---|---|---|---|---|---|---|---|---|---|
+| baseline | 4.94 | 983 | 988 | 2062 | 34.9 | 206.9 | 3.61e-05 | 0/10 | 0.000 | 0 |
+| optimized | 8.09 | 865 | 873 | 1541 | 31.8 | 189.7 | 3.31e-05 | 0/10 | 0.000 | 0 |
+
+Questions passed by both: []
+
+Repeat run in reversed order (timing and energy check, not graded)
+| Config | T_retriever (ms) | T_generator (ms) | T_total (ms) | T_in | Output tokens | Energy (J) | CO2e per query (kg) | Accuracy | Passes per second | Passes per g CO2e |
+|---|---|---|---|---|---|---|---|---|---|---|
+| optimized | 8.61 | 864 | 872 | 1541 | 31.8 | 188.2 | 3.28e-05 | 0/10 | 0.000 | 0 |
+| baseline | 5.11 | 1001 | 1006 | 2062 | 34.9 | 221.8 | 3.87e-05 | 0/10 | 0.000 | 0 |
+
+k sweep (not graded)
+| Config | k | T_in | Output tokens | T_generator (ms) | Energy (J) | CO2e per query (kg) |
+|---|---|---|---|---|---|---|
+| baseline | 1 | 279 | 19.7 | 483 | 101.2 | 1.77e-05 |
+| baseline | 3 | 791 | 28.9 | 726 | 157.1 | 2.74e-05 |
+| baseline | 5 | 1303 | 35.2 | 919 | 202.2 | 3.52e-05 |
+| baseline | 8 | 2062 | 34.9 | 995 | 218.6 | 3.81e-05 |
+| optimized | 1 | 535 | 22.6 | 560 | 121.0 | 2.11e-05 |
+| optimized | 3 | 1541 | 31.8 | 871 | 188.5 | 3.29e-05 |
+| optimized | 5 | 2558 | 32.7 | 967 | 217.8 | 3.80e-05 |
+| optimized | 8 | 4092 | 36.8 | 1215 | 275.7 | 4.81e-05 |
+T_generator = -19.5 ms + 88.4 ms per 1000 input tokens + 23.43 ms per output token (R^2 = 0.992)
+Energy = -0.1 J + 24.5 J per 1000 input tokens + 4.73 J per output token (R^2 = 0.998)
+
+Keyword check of the k sweep (not a hand grade)
+| Config | k | Facts retrieved | Facts in answer |
+|---|---|---|---|
+| baseline | 1 | 3/10 | 4/10 |
+| baseline | 3 | 6/10 | 6/10 |
+| baseline | 5 | 6/10 | 6/10 |
+| baseline | 8 | 9/10 | 9/10 |
+| optimized | 1 | 4/10 | 3/10 |
+| optimized | 3 | 6/10 | 6/10 |
+| optimized | 5 | 8/10 | 8/10 |
+| optimized | 8 | 10/10 | 9/10 |
+
+Indexing and retrieval costs
+Index baseline: 101 chunks, 58 truncated, longest 291 of 256 tokens, 283 ms, 19.0 J, 3.31e-06 kg
+Index optimized: 45 chunks, 20 truncated, longest 564 of 512 tokens, 274 ms, 37.2 J, 6.49e-06 kg
+Retrieval baseline: 5.21 ms, 0.274 J, 4.77e-08 kg
+Retrieval optimized: 8.90 ms, 0.472 J, 8.24e-08 kg

@@ -1,0 +1,7 @@
+torch>=2.6
+transformers==5.9.0
+accelerate==1.12.0
+sentence-transformers==5.2.0
+numpy
+pypdf==6.3.0
+codecarbon==3.2.2
